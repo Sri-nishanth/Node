@@ -1,4 +1,4 @@
-const Ajv = require('Ajv');
+const Ajv = require('ajv');
 const ajv = new Ajv();
 //this schema is trained for the validation that is required
 var schema = {
