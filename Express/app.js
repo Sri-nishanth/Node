@@ -4,8 +4,8 @@ var app = express();
 var routes = require('./Routes/api.js');
 var index = require('./Routes/home.js')
 
-app.use('/home',index);
-app.use('/api',routes);
+app.use('/home', index);
+app.use('/api', routes);
 
 app.listen(3000, () => {
 	console.log("Server has started!!");
